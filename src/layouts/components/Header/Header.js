@@ -10,7 +10,8 @@ import {
     faGear,
     faSignOut,
 } from '@fortawesome/free-solid-svg-icons';
-import Tippy from '@tippyjs/react';
+import Tippy from '@tippyjs/react/headless';
+
 import { Link } from 'react-router-dom';
 
 import classNames from 'classnames/bind';
